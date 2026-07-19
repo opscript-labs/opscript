@@ -1,0 +1,55 @@
+:root {
+  --color-canvas: #f7f8fa;
+  --color-sidebar: #f4f6fa;
+  --color-surface: #ffffff;
+  --color-surface-elevated: #fcfcfd;
+  --color-text-primary: #111827;
+  --color-text-secondary: #4b5563;
+  --color-text-muted: #6b7280;
+  --color-divider: #e5e7eb;
+  --color-divider-soft: #eef0f3;
+  --color-accent: #4f46e5;
+  --color-accent-hover: #4338ca;
+  --color-accent-soft: #eef2ff;
+  --color-focus-ring: #3730a3;
+  --color-healthy: #159455;
+  --color-healthy-soft: #e9f8f0;
+  --color-attention: #d97706;
+  --color-attention-soft: #fff4e5;
+  --color-critical: #c73737;
+  --color-critical-soft: #fdecec;
+  --color-unknown: #64748b;
+  --color-unknown-soft: #eef2f6;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 28px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --spacing-section: var(--space-6);
+  --spacing-card: var(--space-7);
+  --spacing-card-compact: var(--space-6);
+
+  --radius-control: 8px;
+  --radius-button: 9px;
+  --radius-nav: 10px;
+  --radius-card: 16px;
+  --radius-hero: 18px;
+  --radius-pill: 999px;
+
+  --sidebar-width: 240px;
+  --sidebar-collapsed-width: 72px;
+  --topbar-height: 64px;
+
+  --shadow-card: 0 1px 2px rgba(17, 24, 39, 0.04),
+    0 8px 20px rgba(17, 24, 39, 0.06);
+
+  --duration-fast: 120ms;
+  --duration-default: 160ms;
+  --ease-out: ease-out;
+}

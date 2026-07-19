@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+dist/
+*.egg-info/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Local testing
+response.json
+
+# Environment files
+.env
+
+# Frontend
+web/node_modules/
+web/dist/
+web/coverage/
+web/.env
+web/.env.*

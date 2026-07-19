@@ -1,0 +1,117 @@
+.evidence-summary {
+  width: 100%;
+  max-width: 1040px;
+}
+
+.evidence-summary__label {
+  margin: 0 0 var(--space-3);
+  color: var(--color-text-secondary);
+  font-size: 14px;
+  font-weight: 650;
+  line-height: 20px;
+}
+
+.evidence-summary__card {
+  padding: var(--spacing-card);
+  background: var(--color-surface);
+  border: 1px solid var(--color-divider);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+}
+
+.evidence-summary__card h2 {
+  margin: 0;
+  color: var(--color-text-primary);
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 31px;
+  overflow-wrap: anywhere;
+}
+
+.evidence-summary__list {
+  margin: var(--space-5) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.evidence-summary-item {
+  display: flex;
+  gap: var(--space-4);
+  padding: var(--space-5) 0;
+  border-top: 1px solid var(--color-divider-soft);
+}
+
+.evidence-summary-item:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.evidence-summary-item:last-child {
+  padding-bottom: 0;
+}
+
+.evidence-summary-item__icon {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  flex: 0 0 auto;
+  place-items: center;
+  color: var(--color-accent);
+  background: var(--color-accent-soft);
+  border-radius: var(--radius-control);
+}
+
+.evidence-summary-item__content {
+  min-width: 0;
+}
+
+.evidence-summary-item__title {
+  margin: 0;
+  color: var(--color-text-primary);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  overflow-wrap: anywhere;
+}
+
+.evidence-summary-item__copy {
+  margin: var(--space-1) 0 0;
+  color: var(--color-text-secondary);
+  font-size: 14px;
+  line-height: 22px;
+  overflow-wrap: anywhere;
+}
+
+.evidence-summary__note {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+  margin-top: var(--space-6);
+  padding-top: var(--space-5);
+  color: var(--color-text-muted);
+  border-top: 1px solid var(--color-divider-soft);
+}
+
+.evidence-summary__note p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 20px;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 767px) {
+  .evidence-summary__card {
+    padding: var(--space-5);
+  }
+
+  .evidence-summary-item {
+    gap: var(--space-3);
+    padding: var(--space-4) 0;
+  }
+}
+
+@media (max-width: 479px) {
+  .evidence-summary-item {
+    flex-direction: column;
+  }
+}
