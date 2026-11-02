@@ -8,6 +8,10 @@ The Daily Briefing web interface provides the fastest deterministic product demo
 
 Shared provider-neutral domain models and analysis contracts are implemented in the `platformiq` package, while Opscript owns application workflows, integrations, storage, and presentation.
 
+## Architecture
+
+![Opscript Public MVP Architecture](docs/images/architecture.png)
+
 ## What Opscript Does
 
 Opscript supports:
