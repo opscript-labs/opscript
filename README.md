@@ -6,7 +6,7 @@ It collects AWS infrastructure snapshots, compares historical state, and produce
 
 The Daily Briefing web interface provides the fastest deterministic product demonstration. It uses bundled fixture data, so an evaluator can inspect the reporting experience without AWS credentials or hosted services.
 
-Shared provider-neutral domain models and analysis contracts are implemented in the `platformiq` package, while Opscript owns application workflows, integrations, storage, and presentation.
+Opscript modularly orchestrates application workflows, infrstructure integrations, local data storage nd deterministic data presentation.
 
 ## Architecture
 
